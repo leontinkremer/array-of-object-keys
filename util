@@ -1,0 +1,10 @@
+let objCars = [
+  { car: "VW" },
+  { car: "Seat" },
+  { car: "Opel" },
+  { car: "BMW" },
+  { car: "Audi" },
+];
+
+let carNames = Array.from(objCars, ({ car }) => car);
+console.log(carNames);
